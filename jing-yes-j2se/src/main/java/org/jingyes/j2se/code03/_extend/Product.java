@@ -1,4 +1,4 @@
-package org.jingyes.j2se.code03.model;
+package org.jingyes.j2se.code03._extend;
 
 /**
  * @author 陈敬

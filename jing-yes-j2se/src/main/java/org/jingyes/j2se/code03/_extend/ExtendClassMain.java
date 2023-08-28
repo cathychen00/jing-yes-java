@@ -1,7 +1,4 @@
-package org.jingyes.j2se.code03;
-
-import org.jingyes.j2se.code03.model.Bread;
-import org.jingyes.j2se.code03.model.Product;
+package org.jingyes.j2se.code03._extend;
 
 /**
  * 几个继承和多态示例
@@ -9,7 +6,7 @@ import org.jingyes.j2se.code03.model.Product;
  * @author chenjing
  * @date 2023-8-28
  */
-public class ExtendClassDemo {
+public class ExtendClassMain {
     public static void main(String[] args) {
         testConstructor();
         testOverload();
