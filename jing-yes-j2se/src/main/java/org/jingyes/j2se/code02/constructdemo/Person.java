@@ -1,4 +1,4 @@
-package org.jingyest.j2se.code02.constructdemo;
+package org.jingyes.j2se.code02.constructdemo;
 
 /**
  * 构造函数示例

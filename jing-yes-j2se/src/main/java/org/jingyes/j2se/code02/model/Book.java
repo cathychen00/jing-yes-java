@@ -1,4 +1,4 @@
-package org.jingyest.j2se.code02.model;
+package org.jingyes.j2se.code02.model;
 
 public class Book {
     private int price;

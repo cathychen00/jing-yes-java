@@ -1,6 +1,6 @@
-package org.jingyest.j2se.code02;
+package org.jingyes.j2se.code02;
 
-import org.jingyest.j2se.code02.model.Book;
+import org.jingyes.j2se.code02.model.Book;
 
 /**
  * @author 陈敬

@@ -1,4 +1,4 @@
-package org.jingyest.j2se.code02;
+package org.jingyes.j2se.code02;
 
 /**
  * @author 陈敬
