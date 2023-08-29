@@ -8,9 +8,17 @@
         <artifactId>jing-yes-java</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>org.jingyes</groupId>
-    <artifactId>jing-yes-j2se</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
+    <groupId>org.jingyes.cache</groupId>
+    <artifactId>jing-yes-cache</artifactId>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>3.1.7</version>
+        </dependency>
+
+    </dependencies>
 </project>
