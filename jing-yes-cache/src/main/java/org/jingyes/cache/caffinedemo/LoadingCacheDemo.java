@@ -6,14 +6,17 @@ import com.github.benmanes.caffeine.cache.LoadingCache;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
- * LoadingCache示例，自动加载的缓存
+ * Caffeine LoadingCache示例，自动加载缓存
  *
  * @author chenjing
  */
 public class LoadingCacheDemo {
     private static LoadingCache<Integer, Article> cache = Caffeine.newBuilder()
+            .maximumSize(1000)
+            .expireAfterWrite(10, TimeUnit.MINUTES)
             .build(new CacheLoader<>() {
                 @Override
                 public @Nullable Article load(Integer id) {
