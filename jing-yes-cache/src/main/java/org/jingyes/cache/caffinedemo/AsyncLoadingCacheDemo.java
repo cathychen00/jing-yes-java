@@ -1,11 +1,15 @@
 package org.jingyes.cache.caffinedemo;
 
-import com.github.benmanes.caffeine.cache.*;
-import org.checkerframework.checker.nullness.qual.Nullable;
+import com.github.benmanes.caffeine.cache.AsyncLoadingCache;
+import com.github.benmanes.caffeine.cache.Caffeine;
 
-import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.TimeUnit;
 
+/**
+ * Caffeine AsyncLoadingCache 异步自动加载缓存
+ * @author chenjing
+ */
 public class AsyncLoadingCacheDemo {
     private static AsyncLoadingCache<Integer, Article> asyncLoadingCache =
             Caffeine.newBuilder()
