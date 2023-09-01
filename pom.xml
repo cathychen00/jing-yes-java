@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>jing-yes-cache</module>
+        <module>jing-yes-caffeine</module>
     </modules>
 
     <properties>
