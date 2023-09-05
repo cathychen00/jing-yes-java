@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Cache
+ */
 @Service
 @CacheConfig(cacheNames = "ArticleServiceImpl")
 public class ArticleServiceImpl implements ArticleService {
