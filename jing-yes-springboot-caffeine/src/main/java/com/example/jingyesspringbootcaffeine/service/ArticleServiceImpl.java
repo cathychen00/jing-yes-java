@@ -27,12 +27,13 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     @CachePut(key = "#article.id")
-    public void update(Article article) {
+    public Article update(Article article) {
         Article model = mockDB.get(article.getId());
         if (model != null) {
             model.setTitle(article.getTitle());
             mockDB.put(model.getId(), model);
         }
+        return model;
     }
 
     @Override
