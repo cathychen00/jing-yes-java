@@ -1,8 +1,14 @@
 package com.jingyes.mybatispage.model;
 
-//@TableName("user")
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
+//用于指定表名
+@TableName("t_user")
 public class User {
-//    @TableId(type = IdType.AUTO)
+    //指定了字段 id 为表的主键，自增类型
+    @TableId(type = IdType.AUTO)
     private Long id;
     /**
      * 姓名
@@ -39,5 +45,52 @@ public class User {
 
     public void setGender(Integer gender) {
         this.gender = gender;
+    }
+
+    public static UserBuilder builder() {
+        return new UserBuilder();
+    }
+
+    public static final class UserBuilder {
+        private Long id;
+        private String name;
+        private Integer age;
+        private Integer gender;
+
+        private UserBuilder() {
+        }
+
+        public static UserBuilder anUser() {
+            return new UserBuilder();
+        }
+
+        public UserBuilder id(Long id) {
+            this.id = id;
+            return this;
+        }
+
+        public UserBuilder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public UserBuilder age(Integer age) {
+            this.age = age;
+            return this;
+        }
+
+        public UserBuilder gender(Integer gender) {
+            this.gender = gender;
+            return this;
+        }
+
+        public User build() {
+            User user = new User();
+            user.setName(name);
+            user.setAge(age);
+            user.setGender(gender);
+            user.id = this.id;
+            return user;
+        }
     }
 }

@@ -1,5 +1,6 @@
 package com.jingyes.mybatispage;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.jingyes.mybatispage.mapper.UserMapper;
 import com.jingyes.mybatispage.model.User;
 import org.junit.jupiter.api.Test;
