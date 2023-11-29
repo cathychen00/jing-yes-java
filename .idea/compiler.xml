@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jingyes-java-newfeature" />
         <module name="jing-yes-springboot-caffeine" />
+        <module name="jingyes-design-pattern" />
         <module name="jing-yes-caffeine" />
         <module name="jingyes-mybatis-page" />
         <module name="jing-yes-j2se" />
