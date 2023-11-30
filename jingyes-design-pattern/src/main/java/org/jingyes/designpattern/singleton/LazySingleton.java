@@ -1,5 +1,8 @@
 package org.jingyes.designpattern.singleton;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 /**
  * 懒汉式单例
  * 注意：需要处理多线程并发问题，synchronized关键字
@@ -22,9 +25,23 @@ public class LazySingleton {
         return instance;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+        //是否指向同一实例
         LazySingleton instance = LazySingleton.getInstance();
         LazySingleton instance2 = LazySingleton.getInstance();
         System.out.println(instance2 == instance);
+
+        //反射攻击测试
+        attach(LazySingleton.class); //false
+    }
+
+    private static void attach(Class<?> classType) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        //通过反射获取构造函数
+        Constructor<?> constructor = classType.getDeclaredConstructor(null);
+        constructor.setAccessible(true);
+        //构造两个实例
+        LazySingleton instance = (LazySingleton) constructor.newInstance();
+        LazySingleton instance2 = LazySingleton.getInstance();
+        System.out.println(instance == instance2);
     }
 }

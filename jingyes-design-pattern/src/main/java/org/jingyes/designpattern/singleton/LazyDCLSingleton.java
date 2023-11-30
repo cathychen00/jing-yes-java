@@ -1,5 +1,7 @@
 package org.jingyes.designpattern.singleton;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -36,11 +38,23 @@ public class LazyDCLSingleton {
         return instance;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         for (int i = 0; i < 10; i++) {
             new Thread(() -> {
                 System.out.println(LazyDCLSingleton.getInstance().hashCode());
             }).start();
         }
+        //反射攻击测试
+        attach(LazyDCLSingleton.class); //false
+    }
+
+    private static void attach(Class<?> classType) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        //通过反射获取构造函数
+        Constructor<?> constructor = classType.getDeclaredConstructor(null);
+        constructor.setAccessible(true);
+        //构造两个实例
+        LazyDCLSingleton instance = (LazyDCLSingleton) constructor.newInstance();
+        LazyDCLSingleton instance2 = LazyDCLSingleton.getInstance();
+        System.out.println(instance == instance2);
     }
 }
