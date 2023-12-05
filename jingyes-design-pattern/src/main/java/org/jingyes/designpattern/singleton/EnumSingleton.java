@@ -24,8 +24,11 @@ public enum EnumSingleton {
 
     public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         EnumSingleton instance = EnumSingleton.INSTANCE;
-        instance.setValue(100);
         EnumSingleton instance2 = EnumSingleton.INSTANCE;
+        //是否指向同一实例
+        System.out.println(instance==instance2);
+        //设置属性值
+        instance.setValue(100);
         System.out.println(instance2.value);
         //反射攻击测试，失败，直接异常
         attach(EnumSingleton.class);

@@ -18,6 +18,7 @@ public class StatisticSingleton {
         return Holder.INSTANCE;
     }
 
+    //内部静态内实现的懒加载
     private static class Holder {
         private static final StatisticSingleton INSTANCE = new StatisticSingleton();
     }
