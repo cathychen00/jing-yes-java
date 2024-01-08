@@ -11,12 +11,12 @@
         <module name="jing-yes-springboot-caffeine" />
         <module name="jingyes-design-pattern" />
         <module name="jing-yes-caffeine" />
-        <module name="jingyes-mybatis-page" />
         <module name="jing-yes-j2se" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
       <module name="cache" target="17" />
+      <module name="jingyes-mybatis-page" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
