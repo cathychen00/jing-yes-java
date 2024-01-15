@@ -1,0 +1,15 @@
+package org.jingyes.designpattern.adapter;
+
+/**
+ * 需要被适配的类
+ * @author 陈敬
+ * @date 2024/1/15
+ */
+public class PdfFileUtils {
+    public String readFile(String file){
+        return "read pdf file,filename="+file;
+    }
+    public void writeFile(String text){
+        System.out.println("write pdf file,text="+text);
+    }
+}
