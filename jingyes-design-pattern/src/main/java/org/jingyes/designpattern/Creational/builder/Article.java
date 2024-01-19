@@ -1,6 +1,7 @@
 package org.jingyes.designpattern.Creational.builder;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * 建造者模式Builder
@@ -15,6 +16,7 @@ public class Article {
     private String smallTitle;
     private String summary;
     private String content;
+
 
     public Article(ArticleBuilder builder){
         this.id=builder.id;
