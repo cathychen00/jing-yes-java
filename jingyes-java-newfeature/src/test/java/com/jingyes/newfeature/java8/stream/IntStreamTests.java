@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 /**
  * @author chenjing
@@ -43,12 +42,4 @@ public class IntStreamTests {
                 .count();
         System.out.println(count2);//50
     }
-
-    @Test
-    public void iterator() {
-        Stream.iterate(0, n -> n + 2)
-                .limit(10)
-                .forEach(System.out::println);
-    }
-
 }

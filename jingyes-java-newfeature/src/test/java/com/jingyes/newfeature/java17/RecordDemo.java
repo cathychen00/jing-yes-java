@@ -1,4 +1,4 @@
-package com.jingyes.newfeature;
+package com.jingyes.newfeature.java17;
 
 import com.jingyes.newfeature.common.User;
 

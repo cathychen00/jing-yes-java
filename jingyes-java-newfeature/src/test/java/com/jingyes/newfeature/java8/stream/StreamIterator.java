@@ -16,10 +16,15 @@ public class StreamIterator {
      */
     @Test(expected = Exception.class)
     public void once() {
-        List<String> names = Arrays.asList("Java8", "Lambdas", "In", "Action");
+        List<String> names = Arrays.asList("jing","yes");
+        //迭代器可以遍历多次
+        names.forEach(System.out::println);
+        names.forEach(System.out::println);
+
         Stream<String> stream = names.stream();
+        //Steam流只能遍历一次
         stream.forEach(System.out::println);
-        //这里会抛异常
+        //异常 stream has already been operated upon or closed
         stream.forEach(System.out::println);
     }
 }

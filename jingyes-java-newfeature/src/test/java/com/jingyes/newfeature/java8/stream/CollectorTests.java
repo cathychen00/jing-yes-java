@@ -39,7 +39,7 @@ public class CollectorTests {
         System.out.println(total);
         //Collectors.reducing规约求和
         Integer total2 = Dish.menu.stream().collect(Collectors.reducing(0, Dish::getCalories, (x, y) -> x + y));
-        System.out.println(total);
+        System.out.println(total2);
 
         Integer total3 = Dish.menu.stream().collect(Collectors.reducing(0, Dish::getCalories, Integer::sum));
         System.out.println(total3);

@@ -1,4 +1,4 @@
-package com.jingyes.newfeature;
+package com.jingyes.newfeature.java17;
 
 /**
  * JAVA17 文本块，连续三个双引号，适用于引号、换行、json字符串等

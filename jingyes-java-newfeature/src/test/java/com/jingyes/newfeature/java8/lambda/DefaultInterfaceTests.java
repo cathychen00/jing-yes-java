@@ -4,6 +4,7 @@ package com.jingyes.newfeature.java8.lambda;
 import com.jingyes.newfeature.common.Formula;
 
 /**
+ * 接口默认方法实现
  * @author chenjing
  * @date 2021/1/20
  */
