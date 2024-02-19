@@ -18,7 +18,7 @@ public class Sorting {
                 new Apple(80, "green"), new Apple(155, "green"), new Apple(120, "red")
         );
 
-        inventory.sort(Comparator.comparing(Apple::getWeight));
+        inventory.sort(Comparator.comparing(Apple::weight));
         System.out.println(inventory);
     }
 
@@ -28,7 +28,7 @@ public class Sorting {
                 new Apple(80, "green"), new Apple(155, "green"), new Apple(120, "red")
         );
 
-        inventory.sort(Comparator.comparing(Apple::getWeight)
+        inventory.sort(Comparator.comparing(Apple::weight)
                 .reversed());
         System.out.println(inventory);
     }
@@ -42,8 +42,8 @@ public class Sorting {
                 , new Apple(120, "red")
         );
 
-        inventory.sort(Comparator.comparing(Apple::getWeight)
-                .thenComparing(Apple::getColor)
+        inventory.sort(Comparator.comparing(Apple::weight)
+                .thenComparing(Apple::color)
                 .reversed());
         System.out.println(inventory);
     }

@@ -24,9 +24,9 @@ public class FilterApples {
         List<Apple> heavyApples = filter(inventory, FilterApples::isHeavyApple);
         System.out.println(heavyApples);
 
-        List<Apple> greenApples2 = filter(inventory, a -> "green".equals(a.getColor()));
+        List<Apple> greenApples2 = filter(inventory, a -> "green".equals(a.color()));
         System.out.println(greenApples2);
-        List<Apple> heavyApples2 = filter(inventory, a -> a.getWeight() > 150);
+        List<Apple> heavyApples2 = filter(inventory, a -> a.weight() > 150);
         System.out.println(heavyApples2);
 
         List<Integer> nums = filter(List.of(1, 2, 10, 20), n -> n < 10);
@@ -52,10 +52,10 @@ public class FilterApples {
     }
 
     public static boolean isGreenApple(Apple apple) {
-        return "green".equals(apple.getColor());
+        return "green".equals(apple.color());
     }
 
     public static boolean isHeavyApple(Apple apple) {
-        return apple.getWeight() > 150;
+        return apple.weight() > 150;
     }
 }
