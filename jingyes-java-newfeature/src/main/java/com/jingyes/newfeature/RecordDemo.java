@@ -1,5 +1,7 @@
 package com.jingyes.newfeature;
 
+import com.jingyes.newfeature.common.User;
+
 /**
  * record声明的类，具备这些特点：
  * 它是一个final类

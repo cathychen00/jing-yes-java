@@ -1,5 +1,7 @@
 package com.jingyes.newfeature;
 
+import com.jingyes.newfeature.common.User;
+
 /**
  * instanceof语法升级，能直接判断类型并进行强制转换
  *

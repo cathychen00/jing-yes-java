@@ -1,4 +1,4 @@
-package com.jingyes.newfeature;
+package com.jingyes.newfeature.common;
 
 /**
  * @author 陈敬
