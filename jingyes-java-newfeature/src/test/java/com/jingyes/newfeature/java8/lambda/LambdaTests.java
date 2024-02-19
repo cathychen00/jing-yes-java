@@ -1,6 +1,6 @@
 package com.jingyes.newfeature.java8.lambda;
 
-import com.cathyjava.corejava.tests.java8.common.Converter;
+import com.jingyes.newfeature.common.Converter;
 import org.junit.Assert;
 import org.junit.Test;
 

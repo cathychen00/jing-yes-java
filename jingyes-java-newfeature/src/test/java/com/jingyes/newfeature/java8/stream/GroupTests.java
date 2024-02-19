@@ -1,6 +1,6 @@
 package com.jingyes.newfeature.java8.stream;
 
-import com.cathyjava.corejava.tests.java8.entity.Dish;
+import com.jingyes.newfeature.entity.Dish;
 import org.junit.Test;
 
 import java.util.List;

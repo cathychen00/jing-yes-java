@@ -14,7 +14,7 @@ public class StreamIterator {
     /**
      * stream只能遍历一次
      */
-    @Test
+    @Test(expected = Exception.class)
     public void once() {
         List<String> names = Arrays.asList("Java8", "Lambdas", "In", "Action");
         Stream<String> stream = names.stream();

@@ -1,6 +1,6 @@
 package com.jingyes.newfeature.java8.lambda;
 
-import com.cathyjava.corejava.tests.java8.entity.Apple;
+import com.jingyes.newfeature.entity.Apple;
 import org.junit.Test;
 
 import java.util.Arrays;
