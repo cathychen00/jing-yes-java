@@ -12,6 +12,9 @@
         <module>jing-yes-caffeine</module>
         <module>jingyes-java-newfeature</module>
         <module>jingyes-design-pattern</module>
+        <module>jing-yes-concurrent</module>
+        <module>jing-yes-springboot</module>
+        <module>jing-yes-leetcode</module>
     </modules>
 
     <properties>

@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jingyes-java-newfeature" />
         <module name="jing-yes-springboot-caffeine" />
-        <module name="jingyes-design-pattern" />
-        <module name="jing-yes-caffeine" />
+        <module name="jing-yes-springboot" />
         <module name="jing-yes-j2se" />
+        <module name="jingyes-java-newfeature" />
+        <module name="jingyes-design-pattern" />
+        <module name="jing-yes-concurrent" />
+        <module name="jing-yes-leetcode" />
+        <module name="jing-yes-caffeine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

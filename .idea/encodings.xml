@@ -3,11 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/jing-yes-caffeine/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-caffeine/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-concurrent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-concurrent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-j2se/src/main/cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-j2se/src/main/cache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-j2se/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-j2se/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-leetcode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-leetcode/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jing-yes-springboot-caffeine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jing-yes-springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyes-design-pattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyes-design-pattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jingyes-java-newfeature/src/main/java" charset="UTF-8" />
