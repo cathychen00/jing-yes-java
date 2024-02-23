@@ -36,6 +36,12 @@ public class IntegerTests {
         Integer a1 = new Integer(100);
         Integer a2 = new Integer(100);
         Assert.assertFalse(a1 == a2);
+        //add
+        Integer a3 = new Integer(200);
+        //注意这里喽！！
+        // 因为+这个操作符不适用于 Integer 对象，首先 i5 和 i6 进行自动拆箱操作，进行数值相加，即 i4 == 40。
+        Assert.assertTrue(a1 + a2 == 200);
+        Assert.assertTrue(a1 + a2 == a3);
 
         //常量池
         Integer b1 = Integer.valueOf(100);
