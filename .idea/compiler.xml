@@ -17,11 +17,13 @@
         <module name="jing-yes-caffeine" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="jingyes-mybatis-page" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="jing-yes-springboot-caffeine" options="-parameters" />
+      <module name="jing-yes-springboot-caffeine" options="" />
     </option>
   </component>
 </project>
