@@ -16,6 +16,8 @@ jing-yes-java
 * 原来你是这样的JAVA[04]-数组Arrays 
 * 原来你是这样的JAVA[05]--String 
 * 原来你是这样的JAVA[06]-反射
+* 原来你是这样的JAVA[07]-聊聊Integer和BigDecimal
+* 
 ## jingyes-design-pattern 设计模式
 
 
