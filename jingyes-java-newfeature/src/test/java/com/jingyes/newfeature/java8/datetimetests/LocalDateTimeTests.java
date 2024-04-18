@@ -6,10 +6,12 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.temporal.TemporalAdjusters;
 import java.util.Date;
 
 /**
  * Local 简化了日期时间的处理，没有时区的问题
+ *
  * @author 陈敬
  * @date 18/1/2
  */
@@ -113,5 +115,18 @@ public class LocalDateTimeTests {
         System.out.println(date15.getDayOfYear());//66
         //用Date getYear()方法不能获取当前年份
         System.out.println(new Date().getYear());//124,不是我们想要的结果2017
+    }
+
+    @Test
+    public void TemporalAdjusters() {
+        LocalDate now = LocalDate.now();
+        LocalDate firstDayOfMonth = now.with(TemporalAdjusters.firstDayOfMonth());
+        System.out.println(firstDayOfMonth);
+
+        LocalDate lastMonday = now.with(TemporalAdjusters.lastInMonth(DayOfWeek.MONDAY));
+        System.out.println(lastMonday);
+
+        LocalDate motherDay = LocalDate.parse("2024-05-01").with(TemporalAdjusters.dayOfWeekInMonth(2, DayOfWeek.SUNDAY));
+        System.out.println(motherDay);
     }
 }

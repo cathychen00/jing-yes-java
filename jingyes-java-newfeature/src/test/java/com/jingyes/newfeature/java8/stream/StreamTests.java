@@ -95,7 +95,7 @@ public class StreamTests {
         stringList.stream()
                 .map(x -> x.split(""))
                 .flatMap(Arrays::stream)
-//                .distinct()
+                .distinct()
                 .forEach(System.out::println);
     }
 
