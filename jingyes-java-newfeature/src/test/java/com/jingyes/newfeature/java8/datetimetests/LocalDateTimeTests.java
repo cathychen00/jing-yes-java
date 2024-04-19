@@ -126,7 +126,15 @@ public class LocalDateTimeTests {
         LocalDate lastMonday = now.with(TemporalAdjusters.lastInMonth(DayOfWeek.MONDAY));
         System.out.println(lastMonday);
 
+        //计算5月第二个周日
         LocalDate motherDay = LocalDate.parse("2024-05-01").with(TemporalAdjusters.dayOfWeekInMonth(2, DayOfWeek.SUNDAY));
         System.out.println(motherDay);
+    }
+
+    @Test
+    public void diff_days() {
+        LocalDate date1 = LocalDate.parse("2024-04-18");
+        LocalDate date2 = LocalDate.parse("2024-05-20");
+        System.out.println(date2.toEpochDay() - date1.toEpochDay());
     }
 }

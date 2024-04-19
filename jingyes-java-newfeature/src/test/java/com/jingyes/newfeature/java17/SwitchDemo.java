@@ -1,7 +1,8 @@
 package com.jingyes.newfeature.java17;
 
 /**
- * JAVA 17 switch
+ * JAVA 12 switch
+ * 使用类似 lambda 语法条件匹配成功后的执行块，不需要多写 break
  *
  * @author 陈敬
  * @date 2024/2/19
