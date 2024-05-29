@@ -1,7 +1,7 @@
 package org.jingyes.concurrent.juc.tests.threadlocal;
 
 /**
- * InheritableThreadLocal
+ * ThreadLocal 不支持继承，子线程读父线程中的数据要使用 InheritableThreadLocal
  *
  * @author chenjing
  * @date 2021/4/9

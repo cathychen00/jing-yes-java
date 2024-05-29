@@ -11,6 +11,7 @@
         <module name="jing-yes-springboot" />
         <module name="jing-yes-j2se" />
         <module name="jingyes-java-newfeature" />
+        <module name="jing-yes-io" />
         <module name="jingyes-design-pattern" />
         <module name="jing-yes-concurrent" />
         <module name="jing-yes-leetcode" />

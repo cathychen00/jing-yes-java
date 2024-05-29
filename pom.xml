@@ -15,6 +15,7 @@
         <module>jing-yes-concurrent</module>
         <module>jing-yes-springboot</module>
         <module>jing-yes-leetcode</module>
+        <module>jing-yes-io</module>
     </modules>
 
     <properties>
