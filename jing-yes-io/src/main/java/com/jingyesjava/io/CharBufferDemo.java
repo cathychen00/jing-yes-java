@@ -5,7 +5,7 @@ import java.nio.CharBuffer;
 /**
  * NIO - Buffer几个属性示例
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/5/30
  */
 public class CharBufferDemo {

@@ -1,7 +1,7 @@
 package org.jingyes.j2se.code03._abstract;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 18/1/18
  */
 public class ArticleJob extends BaseJob {

@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.stream.Stream;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/7/13
  */
 public class StreamGenerateTests {

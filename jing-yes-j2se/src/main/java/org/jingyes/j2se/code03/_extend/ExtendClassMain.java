@@ -3,7 +3,7 @@ package org.jingyes.j2se.code03._extend;
 /**
  * 几个继承和多态示例
  *
- * @author chenjing
+ * @author jingyes
  * @date 2023-8-28
  */
 public class ExtendClassMain {

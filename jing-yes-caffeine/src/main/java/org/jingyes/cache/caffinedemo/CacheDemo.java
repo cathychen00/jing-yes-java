@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Caffeine Cache 手动加载缓存
  *
- * @author chenjing
+ * @author jingyes
  * @date 2023-8-29
  */
 public class CacheDemo {

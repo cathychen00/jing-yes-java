@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 /**
  * 测试java8内置的函数式接口 Predict
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class PredictDemo {

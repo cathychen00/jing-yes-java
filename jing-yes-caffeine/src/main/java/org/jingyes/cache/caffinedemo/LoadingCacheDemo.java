@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Caffeine LoadingCache示例，自动加载缓存
  *
- * @author chenjing
+ * @author jingyes
  */
 public class LoadingCacheDemo {
     private static LoadingCache<Integer, Article> cache = Caffeine.newBuilder()

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/8
  */
 public class ArraysAsListTests {

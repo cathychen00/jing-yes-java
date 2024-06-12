@@ -3,7 +3,7 @@ package com.jingyes.newfeature.java8.lambda;
 /**
  * Lambda示例
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/3
  */
 public class LambdaDemo {

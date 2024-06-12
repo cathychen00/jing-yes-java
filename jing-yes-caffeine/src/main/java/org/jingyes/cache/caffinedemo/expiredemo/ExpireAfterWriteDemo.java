@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Caffeine expireAfterWrite
- * @author chenjing
+ * @author jingyes
  */
 public class ExpireAfterWriteDemo {
     public static void main(String[] args) throws InterruptedException {

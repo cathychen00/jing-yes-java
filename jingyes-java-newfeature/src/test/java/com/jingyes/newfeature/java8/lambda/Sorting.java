@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/4/23
  */
 public class Sorting {

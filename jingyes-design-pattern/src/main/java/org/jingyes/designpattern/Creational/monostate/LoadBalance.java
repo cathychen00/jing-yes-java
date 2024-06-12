@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 实现monostate模式，模拟服务器负载均衡
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/18
  */
 public class LoadBalance {

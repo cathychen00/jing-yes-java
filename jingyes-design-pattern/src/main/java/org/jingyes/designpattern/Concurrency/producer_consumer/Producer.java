@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Concurrency.producer_consumer;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/16
  */
 public class Producer {

@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Behavioral.mediator.uidemo;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/14
  */
 public class Main {

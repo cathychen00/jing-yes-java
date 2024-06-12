@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
  * 懒汉式单例
  * 注意：需要处理多线程并发问题，synchronized关键字
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2023/11/29
  */
 public class LazySingleton {

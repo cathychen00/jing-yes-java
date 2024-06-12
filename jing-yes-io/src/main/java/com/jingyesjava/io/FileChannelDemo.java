@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
 /**
  * BIO-Channel 测试FileChannel读写文件
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/5/30
  */
 public class FileChannelDemo {

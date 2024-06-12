@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * * 该锁内部有公平与非公平实现，默认情况下是非公平的实现。
  * * 另外，由于该锁是独占锁，所以某时只有一个线程可以获取该锁。
  *
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/17
  */
 public class ReentrantLockTests {

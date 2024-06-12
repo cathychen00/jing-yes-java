@@ -8,7 +8,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/1/28
  */
 public class HttpClientTests {

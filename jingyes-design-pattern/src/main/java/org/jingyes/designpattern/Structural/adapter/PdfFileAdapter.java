@@ -2,7 +2,7 @@ package org.jingyes.designpattern.Structural.adapter;
 
 /**
  * 适配器类
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/15
  */
 public class PdfFileAdapter implements FileReader {

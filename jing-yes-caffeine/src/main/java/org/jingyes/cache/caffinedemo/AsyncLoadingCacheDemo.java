@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Caffeine AsyncLoadingCache 异步自动加载缓存
- * @author chenjing
+ * @author jingyes
  */
 public class AsyncLoadingCacheDemo {
     private static AsyncLoadingCache<Integer, Article> asyncLoadingCache =

@@ -3,7 +3,7 @@ package org.jingyes.designpattern.Structural.facade;
 import java.util.Arrays;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/16
  */
 public abstract class AbstractMineWorker {

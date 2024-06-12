@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Creational.register;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/22
  */
 public class App {

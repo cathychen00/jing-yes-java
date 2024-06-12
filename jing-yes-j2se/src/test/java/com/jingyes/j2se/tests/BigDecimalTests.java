@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/20
  */
 public class BigDecimalTests {

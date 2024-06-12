@@ -7,7 +7,7 @@ import java.util.OptionalInt;
 import java.util.stream.IntStream;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/6/26
  */
 public class IntStreamTests {

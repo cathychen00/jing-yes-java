@@ -1,7 +1,7 @@
 package com.jingyes.j2se.tests.enumtests;
 
 /**
- * @author 陈敬
+ * @author jingyes
  */
 public enum EnumOperType {
     ADD(1, "新增一个用户"),

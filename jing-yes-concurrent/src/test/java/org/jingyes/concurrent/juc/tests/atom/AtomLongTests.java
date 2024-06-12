@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * CAS非阻塞算法,UnSafe实现，
  * 多线程竞争同一个原子变量，高并发下性能瓶颈
  *
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/17
  */
 public class AtomLongTests {

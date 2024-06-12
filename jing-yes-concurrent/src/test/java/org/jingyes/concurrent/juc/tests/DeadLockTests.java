@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/9
  */
 public class DeadLockTests {

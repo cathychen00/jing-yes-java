@@ -1,7 +1,7 @@
 package org.jingyes.j2se.code03._extend;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 18/1/17
  */
 public class Product {

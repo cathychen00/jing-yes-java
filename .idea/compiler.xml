@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jing-yes-springboot-caffeine" />
         <module name="jing-yes-springboot" />
+        <module name="jingyes-spi-demo" />
         <module name="jing-yes-j2se" />
         <module name="jingyes-java-newfeature" />
         <module name="jing-yes-io" />
@@ -16,6 +17,7 @@
         <module name="jing-yes-concurrent" />
         <module name="jing-yes-leetcode" />
         <module name="jing-yes-caffeine" />
+        <module name="jing-yes-jvmdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

@@ -3,7 +3,7 @@ package org.jingyes.j2se.code01;
 import java.math.BigDecimal;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 17/12/23
  */
 public class DoubleDemo {

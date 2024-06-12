@@ -8,7 +8,7 @@ import com.jingyes.newfeature.common.User;
  * 自动实现equals、hashCode、toString函数
  * 成员变量均为public属性
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class RecordDemo {

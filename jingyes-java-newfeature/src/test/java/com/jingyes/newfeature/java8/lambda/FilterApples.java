@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/4/22
  * @description 行为参数化加泛型，实现通用集合筛选
  */

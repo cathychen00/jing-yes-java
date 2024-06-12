@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 /**
  * data-bus模式，可以支持多对多通信，消费消息的组件自行决定处理的类型，并能多对多通信
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/9
  */
 public class App {

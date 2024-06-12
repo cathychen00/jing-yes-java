@@ -5,7 +5,7 @@ import org.jingyes.designpattern.Architectural.databus.AbstractMessage;
 import java.time.LocalDateTime;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/10
  */
 public class StopMessage extends AbstractMessage {

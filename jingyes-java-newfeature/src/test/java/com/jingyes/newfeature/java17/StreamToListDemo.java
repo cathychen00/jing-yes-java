@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * Steam.toList()简化语法
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class StreamToListDemo {

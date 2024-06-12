@@ -1,4 +1,4 @@
-package org.jingyes.concurrent.juc.tests.sychronizeddemo;
+package org.jingyes.concurrent.juc.sychronizeddemo;
 
 /**
  * 测试synchronized锁几种情况

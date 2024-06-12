@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 建造者模式Builder
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/15
  */
 public class Article {

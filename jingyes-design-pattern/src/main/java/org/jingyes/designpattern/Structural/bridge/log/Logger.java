@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Structural.bridge.log;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/4
  */
 public abstract class Logger {

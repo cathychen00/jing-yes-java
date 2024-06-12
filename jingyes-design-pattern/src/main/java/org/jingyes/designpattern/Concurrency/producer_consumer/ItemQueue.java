@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/16
  */
 public class ItemQueue {

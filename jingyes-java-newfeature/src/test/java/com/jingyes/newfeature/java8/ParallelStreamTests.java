@@ -13,7 +13,7 @@ import java.util.stream.LongStream;
  * parallel stream
  * Fork/Join方式，适用于执行速度慢过线程切换消耗的情况
  *
- * @author chenjing
+ * @author jingyes
  * @date 2021/7/29
  */
 public class ParallelStreamTests {

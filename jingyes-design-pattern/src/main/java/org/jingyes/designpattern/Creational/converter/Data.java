@@ -3,7 +3,7 @@ package org.jingyes.designpattern.Creational.converter;
 import java.util.Date;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/15
  */
 public class Data {

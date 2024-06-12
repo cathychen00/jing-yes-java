@@ -1,7 +1,7 @@
 package com.jingyes.j2se.tests.generic;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/23
  */
 public class Pair<T> {

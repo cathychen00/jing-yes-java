@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Creational.monostate;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/18
  */
 public class Request {

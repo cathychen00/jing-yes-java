@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/3/30
  */
 public class SuffleDemo {

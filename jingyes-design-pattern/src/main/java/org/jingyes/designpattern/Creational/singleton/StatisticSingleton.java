@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
  * 静态内部类实现单例模式
  * 外面的类被加载的时候，内部类是不会被自动加载的。JVM保证线程安全，加载一个class的时候只加载一次
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2023/11/30
  */
 public class StatisticSingleton {

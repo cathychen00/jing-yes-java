@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/22
  */
 public class UserRegister {

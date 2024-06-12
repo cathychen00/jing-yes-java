@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.stream.Collectors;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/5/6
  */
 public class StreamDish {

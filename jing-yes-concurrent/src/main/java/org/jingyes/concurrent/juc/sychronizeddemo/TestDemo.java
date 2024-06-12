@@ -1,4 +1,4 @@
-package org.jingyes.concurrent.juc.tests.sychronizeddemo;
+package org.jingyes.concurrent.juc.sychronizeddemo;
 
 class TestDemo extends Thread {
     TestDemo(Runnable runnable, String name) {

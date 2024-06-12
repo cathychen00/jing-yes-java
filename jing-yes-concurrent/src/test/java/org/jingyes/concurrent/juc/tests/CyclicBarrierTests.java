@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 /**
  * CyclicBarrier 回环屏障，它可以让一组线程全部达到一个状态后再全部同时执行，特别适合分段任务有序执行的场景
  *
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/30
  */
 public class CyclicBarrierTests {

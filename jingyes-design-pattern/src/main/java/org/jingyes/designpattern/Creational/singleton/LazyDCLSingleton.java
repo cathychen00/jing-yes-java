@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * 注意：需要处理多线程并发问题
  * 使用双重锁检查，注意需要添加volatile关键字，防止指令重排
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2023/11/29
  */
 public class LazyDCLSingleton {

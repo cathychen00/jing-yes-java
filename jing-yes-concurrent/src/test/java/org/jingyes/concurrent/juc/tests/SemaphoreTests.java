@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
 /**
  * Semaphore 示例
  *
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/31
  */
 public class SemaphoreTests {

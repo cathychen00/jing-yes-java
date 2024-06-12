@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicIntegerArray;
 /**
  * AtomicIntegerArray示例，原子更新数组中某个元素
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/5/9
  */
 public class AtomIntegerArrayTests {

@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Structural.facade;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/16
  */
 public enum Action {

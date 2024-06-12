@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Structural.adapter;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/15
  */
 public class App {

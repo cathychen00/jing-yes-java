@@ -9,7 +9,7 @@ import java.util.List;
 
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2020/8/4
  * Java的泛型是采用擦拭法实现的,所谓擦拭法是指，虚拟机对泛型其实一无所知，所有的工作都是编译器做的。
  * 局限一：<T>不能是基本类型，例如int，因为实际类型是Object，Object类型无法持有基本类型
@@ -69,7 +69,7 @@ public class GenericTests {
     @Test
     public void testExtends() {
         Pair<Integer> p1 = new Pair<>(1);
-        Assert.assertEquals(1,get(p1));
+        Assert.assertEquals(1, get(p1));
     }
 
     int get(Pair<? extends Number> pair) {
@@ -79,10 +79,11 @@ public class GenericTests {
     @Test
     public void testSuper() {
         Pair<Number> p1 = new Pair<>(1);
-        set(p1,100);
+        set(p1, 100);
         System.out.println(get(p1));
     }
-   void set(Pair<? super Integer> pair,Integer val){
+
+    void set(Pair<? super Integer> pair, Integer val) {
         pair.setFirst(val);
-   }
+    }
 }

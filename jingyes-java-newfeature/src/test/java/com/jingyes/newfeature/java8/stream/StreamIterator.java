@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/5/6
  */
 public class StreamIterator {

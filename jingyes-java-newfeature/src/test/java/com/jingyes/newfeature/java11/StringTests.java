@@ -1,7 +1,7 @@
 package com.jingyes.newfeature.java11;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/1/28
  */
 public class StringTests {

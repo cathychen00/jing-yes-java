@@ -5,7 +5,7 @@ import com.jingyes.newfeature.common.User;
 /**
  * instanceof语法升级，能直接判断类型并进行强制转换
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class InstanceOfDemo {

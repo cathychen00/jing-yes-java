@@ -3,7 +3,7 @@ package org.jingyes.designpattern.Architectural.databus.data;
 import org.jingyes.designpattern.Architectural.databus.AbstractMessage;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/9
  */
 public class DataMessage extends AbstractMessage {

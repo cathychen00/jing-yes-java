@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.LongAccumulator;
 /**
  * LongAccumulator
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/5/9
  */
 public class LongAccumulatorTests {

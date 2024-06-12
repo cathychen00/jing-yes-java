@@ -8,7 +8,7 @@ import java.util.Optional;
 /**
  * 判断Optional是否有值
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class OptionalPresidentDemo {

@@ -1,7 +1,7 @@
 package org.jingyes.designpattern.Structural.bridge.message;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/5
  */
 public class UrgencyMessage extends AbstractMessage {

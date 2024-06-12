@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * ReentrantLock 简单的生产者消费者模式
  *
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/18
  */
 public class ProducerConsumerTests {

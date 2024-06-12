@@ -1,7 +1,7 @@
 package org.jingyes.j2se.code01;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/3/30
  */
 public class StringDemo {

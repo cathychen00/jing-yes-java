@@ -3,7 +3,7 @@ package org.jingyes.j2se.code02;
 import org.jingyes.j2se.code02.model.Book;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 18/1/3
  */
 public class ObjectDemo {

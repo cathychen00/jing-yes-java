@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/22
  */
 public class Charactor implements Prototype {

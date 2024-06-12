@@ -3,7 +3,7 @@ package org.jingyes.designpattern.Structural.bridge.log;
 /**
  * 桥接模式实现日志示例
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/5
  */
 public class Main {

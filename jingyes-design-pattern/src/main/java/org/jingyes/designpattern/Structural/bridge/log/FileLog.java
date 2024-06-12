@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/4
  */
 public class FileLog implements Log {

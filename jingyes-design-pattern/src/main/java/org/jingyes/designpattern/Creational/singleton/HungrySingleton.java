@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 /**
  * 饿汉式单例模式
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2023/11/29
  */
 public class HungrySingleton {

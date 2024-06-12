@@ -1,7 +1,7 @@
 package com.jingyes.newfeature.common;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/1/20
  */
 public interface Formula {

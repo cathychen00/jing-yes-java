@@ -1,4 +1,4 @@
-package org.jingyes.concurrent.juc.tests.sychronizeddemo;
+package org.jingyes.concurrent.juc.sychronizeddemo;
 
 /**
  * synchronized 是可重入锁。同一对象，不同方法可重入

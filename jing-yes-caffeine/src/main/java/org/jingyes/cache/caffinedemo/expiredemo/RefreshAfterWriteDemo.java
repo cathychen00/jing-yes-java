@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Caffeine refreshAfterWrite示例
- * @author chenjing
+ * @author jingyes
  */
 public class RefreshAfterWriteDemo {
     public static void main(String[] args) throws InterruptedException {

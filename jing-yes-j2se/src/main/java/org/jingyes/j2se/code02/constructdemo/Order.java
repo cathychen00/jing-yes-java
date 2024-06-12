@@ -1,7 +1,7 @@
 package org.jingyes.j2se.code02.constructdemo;
 
 /** 构造函数执行顺序，先初始化变量，再执行构造函数
- * @author 陈敬
+ * @author jingyes
  * @date 18/1/3
  */
 public class Order {

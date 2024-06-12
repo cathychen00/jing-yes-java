@@ -9,7 +9,7 @@ import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/7/14
  */
 public class CollectorTests {

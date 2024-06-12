@@ -5,7 +5,7 @@ package org.jingyes.concurrent.juc.tests;
  * 1.内存可见性：一个线程修改共享变量时，另外一个线程可以读取到修改后的值
  * 2.禁止重排序：禁止volatile变量和普通变量重排序
  *
- * @author chenjing
+ * @author jingyes
  */
 public class VolatileDemo {
     //关键字volatile，保证一个线程改变变量值时，其他线程可见

@@ -1,7 +1,7 @@
 package com.jingyes.newfeature.common;
 
 /**
- * @author chenjing
+ * @author jingyes
  * @date 2021/1/21
  */
 @FunctionalInterface

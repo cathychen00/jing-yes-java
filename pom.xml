@@ -16,6 +16,8 @@
         <module>jing-yes-springboot</module>
         <module>jing-yes-leetcode</module>
         <module>jing-yes-io</module>
+        <module>jing-yes-jvmdemo</module>
+        <module>jingyes-spi-demo</module>
     </modules>
 
     <properties>

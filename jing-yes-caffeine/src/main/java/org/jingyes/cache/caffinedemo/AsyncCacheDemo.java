@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Caffeine 异步缓存
  *
- * @author chenjing
+ * @author jingyes
  */
 public class AsyncCacheDemo {
     static AsyncCache<Integer, Article> cache = Caffeine.newBuilder()

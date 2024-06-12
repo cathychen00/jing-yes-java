@@ -7,7 +7,7 @@ import org.jingyes.designpattern.Structural.facade.workers.DiggerWorker;
 import java.util.List;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/16
  */
 public class WorkerFacade {

@@ -11,7 +11,7 @@ import static com.jingyes.j2se.tests.enumtests.EnumOperType.*;
 
 /**
  * Enum 枚举示例
- * @author 陈敬
+ * @author jingyes
  * @date 2020/7/28
  */
 public class EnumTests {

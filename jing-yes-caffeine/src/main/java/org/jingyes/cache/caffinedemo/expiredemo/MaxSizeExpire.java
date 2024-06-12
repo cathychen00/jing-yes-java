@@ -7,7 +7,7 @@ import org.jingyes.cache.caffinedemo.Article;
 /**
  * 测试Caffeine基于空间的驱逐策略
  *
- * @author chenjing
+ * @author jingyes
  */
 public class MaxSizeExpire {
     public static void main(String[] args) {

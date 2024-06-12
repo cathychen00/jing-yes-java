@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 
 /**
  * CountDownLatch 示例
- * @author chenjing
+ * @author jingyes
  * @date 2020/12/29
  */
 public class CountDownLatchTests {

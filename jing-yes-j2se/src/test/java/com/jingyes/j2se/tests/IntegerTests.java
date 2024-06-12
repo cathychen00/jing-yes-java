@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Integer
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/20
  */
 public class IntegerTests {

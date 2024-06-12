@@ -1,7 +1,7 @@
 package org.jingyes.j2se.code02;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 18/1/3
  * 测试基本类型传参
  */

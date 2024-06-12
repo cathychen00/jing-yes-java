@@ -4,7 +4,7 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 
 /** 打印当前月份的日历
- * @author chenjing
+ * @author jingyes
  * @date 2023-08-26
  */
 public class CalendarPrinter {

@@ -3,7 +3,7 @@ package org.jingyes.designpattern.Creational.property;
 /**
  * 并结合原型模式，动态设置属性，从已有对象构建新的对象
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/22
  */
 public class App {

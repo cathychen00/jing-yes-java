@@ -5,7 +5,7 @@ import com.jingyes.newfeature.common.Formula;
 
 /**
  * 接口默认方法实现
- * @author chenjing
+ * @author jingyes
  * @date 2021/1/20
  */
 public class DefaultInterfaceTests {

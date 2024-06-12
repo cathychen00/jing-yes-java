@@ -1,7 +1,7 @@
 package com.jingyes.newfeature.java8.lambda;
 
 /**
- * @author 陈敬
+ * @author jingyes
  * @date 2024/1/3
  */
 @FunctionalInterface

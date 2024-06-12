@@ -2,7 +2,7 @@ package org.jingyes.designpattern.Structural.bridge.message;
 
 /**
  * 用桥接模式实现消息示例
- * @author 陈敬
+ * @author jingyes
  * @date 2023/12/5
  */
 public class Main {

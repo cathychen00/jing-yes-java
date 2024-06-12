@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /**
  *
- * @author 陈敬
+ * @author jingyes
  * @date 2024/2/19
  */
 public class NumberFormatDemo {
