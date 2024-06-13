@@ -8,11 +8,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jing-yes-springboot-caffeine/pom.xml" />
         <option value="$PROJECT_DIR$/jingyes-mybatis-page/pom.xml" />
+        <option value="$PROJECT_DIR$/jingyes-springboot-caffeine/pom.xml" />
+        <option value="$PROJECT_DIR$/jingyes-j2se/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/jing-yes-j2se/src/main/cache/pom.xml" />
+        <option value="$PROJECT_DIR$/jing-yes-leetcode/pom.xml" />
         <option value="$PROJECT_DIR$/jingyes-mybatis-page/pom.xml" />
       </set>
     </option>

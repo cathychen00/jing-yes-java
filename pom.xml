@@ -9,15 +9,20 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>jing-yes-caffeine</module>
+        <module>jingyes-caffeine</module>
         <module>jingyes-java-newfeature</module>
         <module>jingyes-design-pattern</module>
-        <module>jing-yes-concurrent</module>
-        <module>jing-yes-springboot</module>
-        <module>jing-yes-leetcode</module>
-        <module>jing-yes-io</module>
-        <module>jing-yes-jvmdemo</module>
+        <module>jingyes-concurrent</module>
+        <module>jingyes-springboot</module>
+        <module>jingyes-leetcode</module>
+        <module>jingyes-io</module>
+        <module>jingyes-jvmdemo</module>
         <module>jingyes-spi-demo</module>
+        <module>jingyes-algrithom</module>
+        <module>jingyes-leetcode</module>
+        <module>jingyes-web-server</module>
+        <module>jingyes-webflux</module>
+        <module>jingyes-nio</module>
     </modules>
 
     <properties>
